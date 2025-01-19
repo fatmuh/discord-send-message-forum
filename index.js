@@ -46,7 +46,7 @@ client.on('threadCreate', async (thread) => {
                     .addFields(
                         { name: 'Notes', value: 'Garap Dongo Jangan Males!', inline: true },
                     )
-                    .setFooter({ text: 'Garapan BOT' });
+                    .setFooter({ text: 'VoC Bot' });
 
                 if (image) {
                     embed.setImage(image);
@@ -97,7 +97,7 @@ client.on('messageCreate', async (message) => {
                 .setAuthor({ name: authorName, iconURL: authorAvatar })
                 .setColor(0x3b82f6) // Warna embed (opsional)
                 .setDescription(`https://discord.com/channels/${message.guild.id}/${message.channel.id}\n\n${content}`)
-                .setFooter({ text: 'Garapan BOT' });
+                .setFooter({ text: 'VoC Bot' });
 
             if (image) {
                 embed.setImage(image);
